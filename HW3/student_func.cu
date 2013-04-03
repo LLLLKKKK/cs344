@@ -83,6 +83,13 @@
 #include "reference_calc.cpp"
 #include "utils.h"
 
+
+__global__
+void find_min(const float* const array)
+{
+    
+}
+        
 void your_histogram_and_prefixsum(const float* const d_logLuminance,
                                   unsigned int* const d_cdf,
                                   float &min_logLum,
